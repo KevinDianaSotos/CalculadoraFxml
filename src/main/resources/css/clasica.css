@@ -1,0 +1,71 @@
+.root {
+ -fx-background-color: #333333;
+    -fx-font-family: monospace;
+    -fx-hgap: 1px;
+    -fx-vgap: 1px;
+    -fx-background-insets: 0px;
+}
+.pantalla{
+	-fx-text-fill: lightgrey;
+	-fx-text-alignment: right;
+	-fx-font-size: 25pt;
+	-fx-font-weight: bold;
+	-fx-padding: 10px;
+	-fx-background-color: transparent;
+	-fx-background-insets: 0px;
+}
+.botonesnaranja{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0px;
+	-fx-background-color:orange;
+	-fx-text-color:white;
+}
+
+.botonesclaro{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0px;
+	-fx-focus-color:white;	
+}
+.botones{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0px;
+	-fx-focus-color:white;
+	
+}
+.botones:armed{
+	-fx-border-color:yellow;
+	-fx-border-width:2pt;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0px;
+}
+.botones:focused{
+	-fx-border-color:white;
+	-fx-border-width:2pt;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0px;
+}
+.botonesnaranja{
+	-fx-text-fill:white;
+	-fx-background-color:orange;
+	-fx-font-size:16pt;
+	-fx-background-radius:0% 0% 0% 0%;
+	-fx-backgroun-insets:0px;
+	-fx-focus-color:white;	
+}
+.botonesnaranja:hover{
+	-fx-text-fill:white;
+	-fx-background-color:darkorange;
+}
+.botonesnaranja:pressed{
+	-fx-text-fill:orange;
+	-fx-background-color:white;
+}
+.botonesigual{
+	-fx-text-fill:white;
+	-fx-background-color:orangered;
+	-fx-background-radius: 0px;
+	-fx-background-insets: 0px;
+}

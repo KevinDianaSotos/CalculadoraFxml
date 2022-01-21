@@ -1,0 +1,87 @@
+.root {
+	-fx-background-color: black;
+	-fx-font-family: monospace;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+	-fx-padding: 5px;
+	
+}
+.pantalla{
+	-fx-font-color: lightgray;
+    -fx-text-fill: lightgray;
+    -fx-text-alignement: RIGHT;
+    -fx-font-weight: bold;
+    -fx-font-size: 25pt;
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+}
+.botonesnaranja{
+	-fx-font-size: 16pt;
+    -fx-background-radius: 0px;
+    -fx-background-inset: 0px;
+	-fx-text-fill:white;
+	-fx-background-color:orange;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 5em;
+
+}
+
+.botonesclaro{
+	-fx-font-size: 16pt;
+    -fx-background-radius: 0px;
+    -fx-background-inset: 0px;
+	-fx-text-fill:black;
+	-fx-background-color:lightgrey;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 5em;
+}
+.botones{
+	-fx-font-size: 16pt;
+	-fx-text-fill:white;
+	-fx-background-color:darkgrey;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+	
+}
+.botones:armed{
+	-fx-border-color:yellow;
+	-fx-border-width:2pt;
+	-fx-background-radius: 5em;
+	-fx-background-insets: 0px;
+	-fx-border-radius: 5em;
+}
+.botones:focused{
+	-fx-border-color: white;
+    -fx-border-insets: 0px;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+.botonesnaranja{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 5em;
+	-fx-background-insets: 0px;
+	-fx-border-radius: 5em;
+}
+.botonesnaranja:hover{
+	-fx-text-fill:white;
+	-fx-background-color:darkorange;
+}
+.botonesnaranja:pressed{
+	-fx-text-fill:orange;
+	-fx-background-color:white;
+}
+.botonesigual{
+	-fx-font-size: 16pt;
+	-fx-background-radius: 5em;
+	-fx-background-insets: 0px;
+	-fx-border-radius: 5em;
+	-fx-text-fill:white;
+	-fx-background-color:darkorange;
+}
+.botonesigual:hover{
+    -fx-background-color: orangered;
+}
+.botonesigual:pressed{
+    -fx-background-color: red;
+}
